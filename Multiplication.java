@@ -1,6 +1,6 @@
-public class Multiplication extends Compute {
+public class Multiplication extends Calculator {
     @Override
-    double multiply(double A, double B) {
+    public double compute(double A, double B) {
         return A * B;
     }
 }

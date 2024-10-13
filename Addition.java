@@ -1,5 +1,5 @@
 public class Addition extends Calculator {
-    @override
+    @Override
     public double compute(double A, double B) {
         return A + B;
     }
